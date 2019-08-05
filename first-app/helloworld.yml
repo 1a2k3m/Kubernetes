@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name: k8s-demo
-    image: wardviaene/k8s-demo
+    image: 1a2k3m/docker-demo
     ports:
     - name: nodejs-port
       containerPort: 3000
