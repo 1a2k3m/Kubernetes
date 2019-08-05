@@ -5,7 +5,7 @@ metadata:
   labels:
     app: helloworld
     spec:
-      container:
+      containers:
       - name: k8s-demo
         image: wardviaene/k8s-demo
         ports:
