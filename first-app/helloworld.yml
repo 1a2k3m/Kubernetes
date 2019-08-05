@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: nodehelloworld.example.com
   labels:
-    app: nodehelloworld
+    app: helloworld
     spec:
       containers:
       - name: docker-demo
