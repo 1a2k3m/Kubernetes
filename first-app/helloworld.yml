@@ -9,5 +9,4 @@ metadata:
       - name: docker-demo
         image: 1a2k3m/docker-demo
         ports:
-        - name: nodejs-ports
           containers: 3000
