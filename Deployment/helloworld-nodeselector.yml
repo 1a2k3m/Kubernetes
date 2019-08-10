@@ -10,10 +10,10 @@ spec:
         app: helloworld
     spec:
       containers:
-      - name: docker-demo
-        image: 1a2k3m/docker-demo
+      - name: k8s-demo
+        image: wardviaene/k8s-demo
         ports:
         - name: nodejs-port
           containerPort: 3000
       nodeSelector:
-        kubernetes.io/hostname= gke-testkubernetes-pool-1-82ec098f-f8zz
+        hardware: high-spec
