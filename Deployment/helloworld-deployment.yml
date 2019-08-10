@@ -14,4 +14,4 @@ spec:
         image: 1a2k3m/docker-demo
         ports:
         - name: nodejs-port
-          containerport: 3000
+          containerPort: 3000
