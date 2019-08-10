@@ -1,0 +1,17 @@
+apiVersion: extension/v1beta1
+kind: Deployment
+metadata:
+  name: helloworld-deployment
+spec:
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: helloworld
+    spec:
+      containers:
+      - name: docker-demo
+        image: 1a2k3m/docker-demo
+        ports:
+        - name: nodejs-port
+          containerport: 3000
