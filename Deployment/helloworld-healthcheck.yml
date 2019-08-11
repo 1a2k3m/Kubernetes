@@ -5,7 +5,7 @@ metadata:
 spec:
   replicas: 3
   template:
-    matadata:
+    metadata:
       labels:
         app: helloworld
     spec:
@@ -19,5 +19,5 @@ spec:
           httpGet:
             path: /
             port: nodejs-port
-          intialDelaySeconds: 15
+          initialDelaySeconds: 15
           timeoutSeconds: 30
